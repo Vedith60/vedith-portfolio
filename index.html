@@ -1,0 +1,309 @@
+<!-- FILE: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedith Malluri</title>
+
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Malluri Vedith" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Malluri Vedith">Malluri Vedith</h1>
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:mallurivedith@gmail.com" class="contact-link">mallurivedith@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918555952442" class="contact-link">8555952442</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Hyderabad, India</address>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+     <nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link data-page="about">About</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link data-page="resume">Resume</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link data-page="projects">Projects</button>
+    </li>
+  </ul>
+</nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a recent B.Tech graduate from CMR Institute of Technology, specializing in Computer Science Engineering (AI & ML). With a strong foundation in programming, problem-solving, and machine learning concepts, I’m passionate about building innovative and efficient software solutions.
+          </p>
+          <p>
+            As an aspiring software developer, I enjoy turning complex problems into clean, scalable solutions and take pride in writing efficient and maintainable code. I'm eager to contribute to impactful projects and be part of a team that values innovation and continuous learning.
+          </p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skill">
+          <h3 class="h3 skill-title">Skills</h3>
+
+          <ul class="skill-list">
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/programming.png" alt="design icon" width="40">
+              </div>
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Programming Languages</h4>
+                <p class="skill-item-text">
+                  Proficient in C, Java, and Python.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/wd.png" alt="Web development icon" width="40">
+              </div>
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Web development</h4>
+                <p class="skill-item-text">
+                  Skilled in HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/da.png" alt="data analytics icon" width="40">
+              </div>
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">Data Analytics</h4>
+                <p class="skill-item-text">
+                  Experienced in SQL, Python, and Power BI.
+                </p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-icon-box">
+                <img src="./assets/images/AI&ML.png" alt="AI & ML icon" width="40">
+              </div>
+              <div class="skill-content-box">
+                <h4 class="h4 skill-item-title">AI & ML</h4>
+                <p class="skill-item-text">
+                  Building predictive models and intelligent systems.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CMR Institute of Technology</h4>
+              <span>2021 — 2025</span>
+              <p class="timeline-text">
+                B.Tech in Computer Science (AI & ML).<br>
+                Hyderabad<br>
+                percentage:85%
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vijaya Ratna Junior College</h4>
+              <span>2019 — 2021</span>
+              <p class="timeline-text">
+                Intermediate(MPC)<br>
+                Hyderabad<br>
+                percentage:94%
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">The Laurel High School</h4>
+              <span>2018 — 2019</span>
+              <p class="timeline-text">
+                SSC<br>
+                Karimnagar<br>
+                percentage:90%
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Fresher</h4>
+              <span>Currently seeking opportunities</span>
+              <p class="timeline-text">
+                Open to roles in software development.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <div style="margin-top: 20px;">
+  <a href="https://flowcv.com/resume/68l148i3ow" target="_blank" class="resume-link">
+    View / Download Resume
+  </a>
+</div>
+
+      </article>
+      
+      <!-- projects -->
+<article class="projects" data-page="projects">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+  <h2 class="h2 section-title">Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Sudoku Solver -->
+    <div class="project-card">
+      <h3 class="h3 project-title">Sudoku Solver With GUI</h3>
+      <p>
+        Developed a Python program using recursion and backtracking to solve Sudoku puzzles efficiently.
+        Integrated a Tkinter-based graphical interface for an interactive user experience.
+      </p>
+      <a href="https://github.com/Vedith60/sudoku-solver.git" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <!-- YouTube Content Classifier -->
+    <div class="project-card">
+      <h3 class="h3 project-title">YouTube Inappropriate Content Classifier</h3>
+      <p>
+        Designed a deep learning model using EfficientNet-B7 and BiLSTM to classify and detect inappropriate
+        YouTube videos with high accuracy.
+      </p>
+      <a href="https://github.com/Vedith60/A-Deep-Learning-Based-Approach-for-Inappropriate-Content-Detection-on-youtube.git" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <!-- Stock Price Prediction -->
+    <div class="project-card">
+      <h3 class="h3 project-title">Stock Price Prediction With Sentiment Analysis</h3>
+      <p>
+        Built a predictive system that combines sentiment analysis of financial tweets with an optimized
+        LSTM network to forecast stock price movements.
+      </p>
+      <a href="https://github.com/yourusername/stock-sentiment-prediction" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <!-- Web Extension -->
+    <div class="project-card">
+      <h3 class="h3 project-title">Chrome Extension – Email Template Generator
+</h3>
+      <p>
+        Built a lightweight Chrome extension using HTML, CSS, and JavaScript to quickly insert predefined templates into Gmail’s compose window, boosting productivity and ensuring consistent communication.
+
+
+      </p>
+      <a href="https://github.com/Vedith60/email-Template-chrome-extension.git" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+</article>
+    </div>
+  </main>
+
+  <!-- JS SCRIPTS -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
